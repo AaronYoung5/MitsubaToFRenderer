@@ -1,4 +1,4 @@
-MATLABDIR = /usr/local/MATLAB/R2017a
+MATLABDIR = /usr/local/MATLAB/R2022a
 MATLABARCH = glnxa64
 MEXEXT = $(shell $(MATLABDIR)/bin/mexext)
 MAPFILE = mexFunction.map

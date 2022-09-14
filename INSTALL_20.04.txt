@@ -39,7 +39,7 @@ cd
 echo -e 'mitsuba_plugin_dir="<INST_PATH>/MitsubaToFRenderer/dist/plugins"' | sudo tee -a /etc/environment > /dev/null
 sudo sed -e '/^PATH/s/"$/:<INST_PATH>\/MitsubaToFRenderer\/dist"/g' -i /etc/environment
 source /etc/environment
-echo "<INST_PATH>/MitsubaToFRenderer/dist" | sudo tee /etc/ld.so.conf.d/mitsuba.conf > /dev/null
+echo "/home/stn/research/MitsubaToFRenderer/dist" | sudo tee /etc/ld.so.conf.d/mitsuba.conf > /dev/null
 sudo ldconfig
  
 # Reboot for changes to take effect

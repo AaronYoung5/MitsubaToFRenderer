@@ -1,6 +1,6 @@
 CC = g++
 LD = g++
-GENERALFLAGS = -fPIC -Wall -Wextra -Wpedantic -g -std=c++11 -fdiagnostics-color=always
+GENERALFLAGS = -fPIC -Wall -Wextra -Wpedantic -g -std=c++14 -fdiagnostics-color=always
 EXTRAWARNINGFLAGS = -Wdouble-promotion -Wswitch-default -Wuninitialized -Wsuggest-attribute=pure -Wsuggest-attribute=const -Wsuggest-attribute=noreturn -Wsuggest-attribute=format -Wfloat-equal -Wtrampolines -Wundef -Wunsafe-loop-optimizations -Wtype-limits -Wcast-qual -Wcast-align -Wconversion -Wzero-as-null-pointer-constant -Wuseless-cast -Wlogical-op -Wmissing-declarations -Wopenmp-simd -Wpacked -Wpacked-bitfield-compat -Wredundant-decls -Wlong-long -Winvalid-pch
 #-Wsign-conversion
 #-Waggregate-return 

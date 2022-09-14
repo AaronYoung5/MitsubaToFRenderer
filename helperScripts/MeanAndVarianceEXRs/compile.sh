@@ -1,2 +1,2 @@
-g++ -std=c++11 -o createMeanAndSDImages createMeanAndSDImages.cc 
-g++ -std=c++11 -o createSDImageFromRefMean createSDImageFromRefMean.cc 
+g++ -std=c++17 -o createMeanAndSDImages createMeanAndSDImages.cc 
+g++ -std=c++17 -o createSDImageFromRefMean createSDImageFromRefMean.cc 

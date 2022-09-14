@@ -170,7 +170,7 @@ Abscissas where the relative error is a local maximum:
    0.0031308, 0.00392026, 0.00737952, 0.0181293, 0.0499015,
    0.139431,  0.361749,   0.751249,   1.0
 */
-inline V4f sRGB_Remez43(const V4f& x) throw()
+inline V4f sRGB_Remez43(const V4f& x)
 {
 	// Constants
 	const V4f P0(    -0.016036752726326525f );
